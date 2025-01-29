@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 
 /**
- * The basic structure of a JavaFX Application
+ * Der Grundaufbau einer JavaFX Application
  */
 public class App extends Application {
 
