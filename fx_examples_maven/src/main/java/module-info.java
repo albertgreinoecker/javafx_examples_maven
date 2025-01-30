@@ -7,4 +7,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_04_layoutmanager_flow_tile_pane;
     exports fx_examples_maven.fx_examples_maven.ex_05_event_handling;
     exports fx_examples_maven.fx_examples_maven.ex_06_class_node;
+    exports fx_examples_maven.fx_examples_maven.ex_07_grid_demo;
 }
