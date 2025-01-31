@@ -13,8 +13,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 /**
- * Ein Beispiel wie ein Grid erzeugt wird und wie der gedrueckte Button
- * identifiziert wird
+ * Ein Beispiel wie Radio Buttons verwendet werden
  */
 public class App extends Application implements EventHandler<ActionEvent> {
 
