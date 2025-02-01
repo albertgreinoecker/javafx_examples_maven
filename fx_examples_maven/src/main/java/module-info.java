@@ -11,4 +11,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_08_radio_button;
     exports fx_examples_maven.fx_examples_maven.ex_09_list_view;
     exports fx_examples_maven.fx_examples_maven.ex_10_list_view_extended;
+    exports fx_examples_maven.fx_examples_maven.ex_11_list_view_custom_renderer;
 }
