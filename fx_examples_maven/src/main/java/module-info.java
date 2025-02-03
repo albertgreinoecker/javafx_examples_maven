@@ -14,4 +14,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_11_list_view_custom_renderer;
     exports fx_examples_maven.fx_examples_maven.ex_12_tables;
     exports fx_examples_maven.fx_examples_maven.ex_13_images;
+    exports fx_examples_maven.fx_examples_maven.ex_14_images_background;
 }
