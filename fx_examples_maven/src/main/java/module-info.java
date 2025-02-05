@@ -1,6 +1,7 @@
 module fx_examples_maven.fx_examples_maven {
     requires javafx.controls;
     requires javafx.graphics;
+	requires java.desktop;
     exports fx_examples_maven.fx_examples_maven.ex_01;
     exports fx_examples_maven.fx_examples_maven.ex_02_borderpane;
     exports fx_examples_maven.fx_examples_maven.ex_03_layoutmanager_combined;
@@ -15,4 +16,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_12_tables;
     exports fx_examples_maven.fx_examples_maven.ex_13_images;
     exports fx_examples_maven.fx_examples_maven.ex_14_images_background;
+    exports fx_examples_maven.fx_examples_maven.ex_15_canvas_first;
 }

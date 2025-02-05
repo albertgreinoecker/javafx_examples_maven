@@ -30,8 +30,7 @@ public class App extends Application {
 		 * image: Das Bild 
 		 * repeatX: Wird das Bild in X-Richtung wiederholt 
 		 * repeatY: Wird das Bild in Y-Richtung wiederholt 
-		 * position: Wo soll
-		 * das Bild angezeigt werden 
+		 * position: Wo soll das Bild angezeigt werden 
 		 * size: Wie groß soll das Hintergrundbild dargestellt werden
 		 */
 		BackgroundImage bi = new BackgroundImage(im, BackgroundRepeat.REPEAT, BackgroundRepeat.REPEAT,
