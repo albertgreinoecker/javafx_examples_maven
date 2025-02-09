@@ -28,8 +28,9 @@ public class App extends Application {
 		MenuItem m11 = new MenuItem("Eintrag 1 1");
 		MenuItem m12 = new CheckMenuItem("Check - Eintrag 1 2");
 		
-		RadioMenuItem m13 = new RadioMenuItem("Radio -Eintrag 1 3");
-		RadioMenuItem m14 = new RadioMenuItem("Radio -Eintrag 1 4");
+		RadioMenuItem m13 = new RadioMenuItem("Radio - Eintrag 1 3");
+		RadioMenuItem m14 = new RadioMenuItem("Radio - Eintrag 1 4");
+		//Zusammenfassen der Radio Eintraege in einer Toggle Group
 		ToggleGroup tg = new ToggleGroup();
 		m13.setToggleGroup(tg);
 		m14.setToggleGroup(tg);
