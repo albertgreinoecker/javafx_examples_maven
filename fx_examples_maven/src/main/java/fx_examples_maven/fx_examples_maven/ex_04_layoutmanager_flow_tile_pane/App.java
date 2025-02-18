@@ -3,7 +3,6 @@ package fx_examples_maven.fx_examples_maven.ex_04_layoutmanager_flow_tile_pane;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.TilePane;
 import javafx.scene.layout.VBox;

@@ -57,7 +57,6 @@ public class App extends Application implements EventHandler<ActionEvent> {
 		Button n = (Button)event.getSource(); // Das ist der gedrueckte Button
 		String txt = String.format("%s gedrueckt", n.getText());
 		l.setText(txt);
-		
 	}
 	
 	public void handleButton4(ActionEvent event) {
