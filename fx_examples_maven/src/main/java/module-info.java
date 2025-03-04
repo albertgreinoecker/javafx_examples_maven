@@ -21,4 +21,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_16_canvas_group;
     exports fx_examples_maven.fx_examples_maven.ex_17_menu;
     exports fx_examples_maven.fx_examples_maven.ex_18_web_view;
+    exports fx_examples_maven.fx_examples_maven.ex_19_TTT;
 }
