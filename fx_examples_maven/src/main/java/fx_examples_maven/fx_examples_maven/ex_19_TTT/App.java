@@ -43,7 +43,7 @@ public class App extends Application implements EventHandler<ActionEvent> {
 
 	@Override
 	public void handle(ActionEvent event) {
-		Button b = (Button) event.getSource();
+		Button b = (Button)(event.getSource());
 		if (ttt.spielZug(Integer.parseInt(b.getId()))) {
 			b.setText("" + ttt.getWerAmZug());
 			ttt.spielerWechsel();
