@@ -22,6 +22,8 @@ public class App extends Application implements EventHandler<ActionEvent> {
 	public void start(Stage primaryStage) {
 		BorderPane root = new BorderPane();
 		GridPane center = new GridPane();
+		center.setHgap(20);
+		center.setVgap(20);
 		for (int i = 0; i < 10; i++) {
 			for (int j = 0; j < 10; j++) {
 				String bStr = String.format("(%d %d)", i, j); // wie printf
