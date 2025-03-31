@@ -34,7 +34,6 @@ public class App extends Application {
 
         // Gruppe mit allen Objekten erstellen
         Group group = new Group(rectangle, circle, text);
-
 		root.setCenter(group);
 		Scene scene = new Scene(root, 1000, 600);
 

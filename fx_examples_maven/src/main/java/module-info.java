@@ -24,4 +24,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_19_TTT;
     exports fx_examples_maven.fx_examples_maven.ex_20_colors;
     exports fx_examples_maven.fx_examples_maven.ex_21_timer;
+    exports fx_examples_maven.fx_examples_maven.ex_22_key_events;
 }
