@@ -4,6 +4,7 @@ import javafx.application.Application;
 import javafx.event.EventHandler;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -34,6 +35,10 @@ public class App extends Application implements EventHandler<KeyEvent>{
 
 	@Override
 	public void handle(KeyEvent event) {
+		if (event.getCode() == KeyCode.A)
+		{
+			System.out.println("Taste A wurde gedrückt");
+		}
 		//Die Codes stehen alle in der Klasse KeyCode, z.B. KeyCode.M
 		System.out.printf("%s : %s %n", event.getText(), event.getCode().getName());
 		
