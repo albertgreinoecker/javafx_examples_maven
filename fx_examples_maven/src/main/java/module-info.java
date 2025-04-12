@@ -3,6 +3,7 @@ module fx_examples_maven.fx_examples_maven {
     requires javafx.graphics;
     requires javafx.web;
 	requires java.desktop;
+	requires javafx.media;
     exports fx_examples_maven.fx_examples_maven.ex_01;
     exports fx_examples_maven.fx_examples_maven.ex_02_borderpane;
     exports fx_examples_maven.fx_examples_maven.ex_03_layoutmanager_combined;
@@ -25,4 +26,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_20_colors;
     exports fx_examples_maven.fx_examples_maven.ex_21_timer;
     exports fx_examples_maven.fx_examples_maven.ex_22_key_events;
+    exports fx_examples_maven.fx_examples_maven.ex_23_sound;
 }

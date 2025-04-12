@@ -29,7 +29,8 @@ public class App extends Application {
 		// Hier ein paar Moeglichkeiten wie man solche Objekte fuellen kann
 		gc.fillRect(100, 100, 100, 100); // x,y,w,h (x,y,Breite, Hoehe)
 		gc.fillRect(150, 150, 100, 100);
-		gc.fillOval(300, 300, 100, 100); //// x,y,w,h wenn w = h => Kreis
+		gc.setFill(Color.RED); 
+		gc.fillOval(100, 100, 100, 100); //// x,y,w,h wenn w = h => Kreis
 		
 	    // Fuer einfaches Zeichnen sind folgende Einstellungen sinnvoll
 	    gc.setLineWidth(3); // Einstellen der Stiftdicke
