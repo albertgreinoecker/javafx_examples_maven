@@ -1,4 +1,4 @@
-package fx_examples_maven.fx_examples_maven.ex_16_canvas_group;
+package fx_examples_maven.fx_examples_maven.ex_16_canvas_first;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
