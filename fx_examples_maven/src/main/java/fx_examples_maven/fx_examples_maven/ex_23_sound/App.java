@@ -26,8 +26,7 @@ public class App extends Application {
 			sound.play();
 		});
 
-		Button btnMedia = new Button("Sound mit Mediaplayer abspielen");
-		
+		Button btnMedia = new Button("Sound mit Mediaplayer abspielen");		
 		String musicFile = getClass().getResource("/sounds/groove.mp3").toExternalForm();
 		Media sound = new Media(musicFile);
 		mediaPlayer = new MediaPlayer(sound);
