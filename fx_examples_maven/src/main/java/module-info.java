@@ -18,8 +18,8 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_12_tables;
     exports fx_examples_maven.fx_examples_maven.ex_13_images;
     exports fx_examples_maven.fx_examples_maven.ex_14_images_background;
-    exports fx_examples_maven.fx_examples_maven.ex_15_canvas_first;
-    exports fx_examples_maven.fx_examples_maven.ex_16_canvas_group;
+    exports fx_examples_maven.fx_examples_maven.ex_15_canvas_groups;
+    exports fx_examples_maven.fx_examples_maven.ex_16_canvas_first;
     exports fx_examples_maven.fx_examples_maven.ex_17_menu;
     exports fx_examples_maven.fx_examples_maven.ex_18_web_view;
     exports fx_examples_maven.fx_examples_maven.ex_19_TTT;
