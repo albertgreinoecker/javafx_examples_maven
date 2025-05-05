@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
@@ -24,7 +25,7 @@ public class App extends Application implements EventHandler<KeyEvent>{
         primaryStage.setTitle("JavaFX KeyListener Beispiel");
         primaryStage.setScene(scene);
         primaryStage.show();
-
+        
         // Fokus setzen, damit Tastaturereignisse empfangen werden
         root.requestFocus();
     }

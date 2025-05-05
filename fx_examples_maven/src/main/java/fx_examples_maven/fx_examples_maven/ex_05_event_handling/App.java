@@ -55,6 +55,7 @@ public class App extends Application implements EventHandler<ActionEvent> {
 	@Override
 	public void handle(ActionEvent event) {
 		Button n = (Button)event.getSource(); // Das ist der gedrueckte Button
+		
 		String txt = String.format("%s gedrueckt", n.getText());
 		l.setText(txt);
 	}

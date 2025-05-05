@@ -27,4 +27,6 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_21_timer;
     exports fx_examples_maven.fx_examples_maven.ex_22_key_events;
     exports fx_examples_maven.fx_examples_maven.ex_23_sound;
+    exports fx_examples_maven.fx_examples_maven.ex_24_css;
+    exports fx_examples_maven.fx_examples_maven.ex_25_custom_layouts;
 }

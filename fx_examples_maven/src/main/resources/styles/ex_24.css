@@ -1,0 +1,25 @@
+#button2
+{
+	-fx-background-color: #FF0000;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+   }
+   
+#button2:hover
+{
+    -fx-background-color: #FF7F7F;
+}
+
+
+.click_buttons:pressed {
+    -fx-background-color: #003f73;
+}
+
+Button
+{
+    -fx-font-size: 20px;
+    -fx-font-family: "Arial";
+    -fx-padding: 10 20 10 20;
+}
