@@ -5,11 +5,11 @@
     -fx-padding: 10px 20px;
     -fx-border-radius: 5px;
     -fx-background-radius: 5px;
-   }
+}
    
 #button2:hover
 {
-    -fx-background-color: #FF7F7F;
+    -fx-background-color: #FF7F7F;   
 }
 
 

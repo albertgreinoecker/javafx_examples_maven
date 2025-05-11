@@ -4,6 +4,7 @@ module fx_examples_maven.fx_examples_maven {
     requires javafx.web;
 	requires java.desktop;
 	requires javafx.media;
+	requires java.sql;
     exports fx_examples_maven.fx_examples_maven.ex_01;
     exports fx_examples_maven.fx_examples_maven.ex_02_borderpane;
     exports fx_examples_maven.fx_examples_maven.ex_03_layoutmanager_combined;
@@ -29,4 +30,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_23_sound;
     exports fx_examples_maven.fx_examples_maven.ex_24_css;
     exports fx_examples_maven.fx_examples_maven.ex_25_custom_layouts;
+    exports fx_examples_maven.fx_examples_maven.ex_26_database_simple;
 }
