@@ -13,10 +13,14 @@ public class DBManager {
 	Connection con;
 	
 	public DBManager() throws SQLException {
+		/*
         String jdbcUrl = "jdbc:mysql://localhost:3306/uni";
         String username = "root";
         String password = "root";
         con = DriverManager.getConnection(jdbcUrl, username, password);
+        */
+		String jdbcUrl = "jdbc:sqlite:src/main/resources/db/uni.sqlite";
+        con = DriverManager.getConnection(jdbcUrl);
 	}
 	
 	public void close() {

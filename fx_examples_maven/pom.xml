@@ -16,7 +16,7 @@
 			<groupId>org.openjfx</groupId>
 			<artifactId>javafx-controls</artifactId>
 			<version>22.0.1</version>
-			 <classifier>linux</classifier>
+			<classifier>linux</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.openjfx</groupId>
@@ -28,6 +28,16 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.33</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xerial</groupId>
+			<artifactId>sqlite-jdbc</artifactId>
+			<version>3.45.1.0</version> <!-- Latest as of 2024 -->
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.36</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -47,7 +57,8 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>fx_examples_maven.fx_examples_maven.ex_26_database_simple.App</mainClass>
+									<mainClass>
+										fx_examples_maven.fx_examples_maven.ex_26_database_simple.App</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
