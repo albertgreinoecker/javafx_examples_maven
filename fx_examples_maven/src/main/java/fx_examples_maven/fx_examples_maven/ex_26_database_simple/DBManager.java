@@ -39,8 +39,12 @@ public class DBManager {
 	        String name = rs.getString("name");
 	        String rang = rs.getString("rang");
 	        String raum = rs.getString("raum");
+	        stmt.close();
+	        rs.close();
 	        return new Professor(persNr, name, rang, raum);
 	    }
+	    stmt.close();
+	    rs.close();
 	    return null;
 	}
 	
@@ -55,6 +59,8 @@ public class DBManager {
 	        String raum = rs.getString("raum");
 	        professors.add(new Professor(persNr, name, rang, raum));
 	    }
+	    stmt.close();
+	    rs.close();
 	    return professors;
 	}
 	
@@ -65,12 +71,14 @@ public class DBManager {
 		stmt.setString(3, p.getRang());
 		stmt.setString(4, p.getRaum());
 		stmt.executeUpdate();
+		stmt.close();
 	}
 	
 	public void delete(String persNr) throws SQLException {
 		PreparedStatement stmt = con.prepareStatement("DELETE FROM Professoren WHERE persNr = ?");
 		stmt.setString(1, persNr);
 		stmt.executeUpdate();
+		stmt.close();
 	}
 	
 	public void update(Professor p) throws SQLException {
@@ -80,6 +88,6 @@ public class DBManager {
 		stmt.setString(3, p.getRaum());
 		stmt.setString(4, p.getPersNr());
 		stmt.executeUpdate();
+		stmt.close();
 	}
-
 }
