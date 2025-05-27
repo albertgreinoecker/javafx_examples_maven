@@ -11,6 +11,13 @@ import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.util.Duration;
 
+/**
+ * Beispiel für kontinuierliches Scrollen eines Hintergrundbildes
+ * 
+ * Das Bild wird von links nach rechts gescrollt, indem der Viewport des ImageView
+ * kontinuierlich aktualisiert wird.
+ * TODO: Es soll ein sanfter Übergang erfolgen, wenn das Ende des Bildes erreicht ist.
+ */
 public class AppSliding extends Application {
 
     private static final int VIEW_WIDTH = 800;
