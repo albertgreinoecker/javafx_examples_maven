@@ -42,6 +42,13 @@ public class App extends Application {
 	    Image im = new Image(getClass().getResource("/images/htl-logo_rauten.png").toExternalForm());
 	    gc.drawImage(im, 200, 200);
 
+	    // Set fill color and font
+        gc.setFill(Color.BLACK);
+        gc.setFont(new javafx.scene.text.Font("Arial", 24));
+        // Draw the text
+        gc.fillText("Hello, JavaFX Canvas!", 50, 150);
+	    
+	    
 		root.setCenter(canvas);
 		Scene scene = new Scene(root, 1000, 600);
 
