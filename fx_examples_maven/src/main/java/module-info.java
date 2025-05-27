@@ -31,4 +31,5 @@ module fx_examples_maven.fx_examples_maven {
     exports fx_examples_maven.fx_examples_maven.ex_24_css;
     exports fx_examples_maven.fx_examples_maven.ex_25_custom_layouts;
     exports fx_examples_maven.fx_examples_maven.ex_26_database_simple;
+    exports fx_examples_maven.fx_examples_maven.ex_27_progress_bar_timeline;
 }
